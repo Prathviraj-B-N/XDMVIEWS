@@ -1,0 +1,11 @@
+{
+    "1" : {
+        "name": "Prathviraj",
+        "age": 22,
+        "enrolled" : true},
+    "2" : {
+        "name": "Prathviraj",
+        "age": 22,
+        "enrolled" : true 
+    }
+}

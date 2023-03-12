@@ -1,0 +1,24 @@
+{
+  "name": "xdmviews",
+  "version": "1.0.0",
+  "description": "Package that lets you combine data accross data models",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node application.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prathviraj-B-N/XDMVIEWS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prathviraj-B-N/XDMVIEWS/issues"
+  },
+  "homepage": "https://github.com/Prathviraj-B-N/XDMVIEWS#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "xml2js": "^0.4.23"
+  }
+}
