@@ -4,7 +4,7 @@
   "description": "Package that lets you combine data accross data models",
   "main": "index.js",
   "scripts": {
-    "dev": "node application.js"
+    "dev": "node xdmview.js"
   },
   "repository": {
     "type": "git",

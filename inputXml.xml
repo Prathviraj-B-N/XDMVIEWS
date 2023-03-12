@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdmview name="myView">
+    <source type="mysql" url="jdbc:mysql://localhost:3306/market" name="market" username="root" password="1234" />
+    <source type="mysql" url="jdbc:mysql://localhost:3306/market" name="shop" username="root" password="1234" />
+      
+   <base name="catsum" source="market">
+         <field conditions="" selected="true">product_category</field>
+         <field conditions="" selected="true">product_sub_category</field>
+         <field conditions="" selected="true">sales</field>
+   </base>
+
+   <base name="catsum" source="shop">
+		 <field conditions="" selected="true">product_category</field>
+         <field conditions="" selected="true">product_sub_category</field>
+         <field conditions="" selected="true">sales</field>
+   </base>
+
+</xdmview>
